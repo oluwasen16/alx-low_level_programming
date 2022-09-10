@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - printing numbers from 0 - 9 with commas and space between them
  *
@@ -23,5 +24,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
 
