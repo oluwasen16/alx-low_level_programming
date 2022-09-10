@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
+ * main -  prints the size of various types on the computer
  *
  * Description: using the main function
+ * to print datatype size* 
  * Return: 0
  */
 int main(void)
@@ -16,8 +17,9 @@ int main(void)
 
 	printf("Size of a char: %ld byte(s)\n", sizeof(c));
 	printf("Size of a int: %ld byte(s)\n", sizeof(i));
-	Printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
 	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
+
 	return (0);
 }
