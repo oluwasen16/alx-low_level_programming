@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - print putchar
+ * main - print putchar from the statement above
+ * Description: Write a program that prints _putchar
  * Return: always 0
  */
 
-int mian(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
